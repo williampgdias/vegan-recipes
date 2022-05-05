@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Voltaire&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  font-family: 'Voltaire', sans-serif;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  z-index: 99;
+}
+
+/******************** HEADER-LOGO  ********************/
+
+.logo img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.logo {
+  margin-left: 100px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.logo p {
+  color: #000;
+  font-size: 1.4rem;
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+.logo p span {
+  color: #009900;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+/******************** HEADER-MENU ********************/
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  margin-right: 100px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  padding: 20px;
+  margin: 10px;
+  color: #000;
+}
+
+.menu ul li a:hover {
+  color: #009900;
+}
+
+/******************** INTRO ********************/
+
+.introducao {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(../images/intro-bg.png) no-repeat;
+  background-size: cover;
+}
+
+/******************** INTRO-CAROUSEL ********************/
+
+.carousel {
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 54%;
+}
+
+/******************** INTRO-QUOTE ********************/
+
+.quote-externo p {
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+}
+
+.quote-externo cite {
+  color: #000;
+  font-size: 1.3rem;
+  font-family: 'Voltaire', sans-serif;
+}
+
+/******************** REASON ********************/
+
+.reason {
+  background-color: #009900;
+}
+
+.reason .subtitle {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 2.4rem;
+  color: #000;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.cards .card {
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.cards .card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cards .card .card-body {
+  color: #000;
+}
+
+/******************** HOW TO GO ********************/
+
+.how-go-vegan {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.how-go-vegan .subtitle {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 2.4rem;
+  color: #000;
+}
+
+.how-go-vegan .btn-primary {
+  border: 2px solid #009900;
+  background-color: #009900;
+  color: #000;
+  width: 200px;
+  margin: 10px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+}
+
+.how-go-vegan .btn-primary:hover {
+  background: none;
+  color: #009900;
+}
+
+
+
+
+
+
+/******************** FOOTER ********************/
+
+footer .copy {
+  padding: 10px;
+  text-align: center;
+  background-color: #009900;
+  font-family: 'Josefin Sans', sans-serif;
+}
