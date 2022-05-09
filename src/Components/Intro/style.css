@@ -1,0 +1,66 @@
+/******************** HEADER-LOGO  ********************/
+
+.logo {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.logo img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.logo p {
+  color: #000;
+  font-size: 1.9rem;
+  margin: 0;
+  line-height: 2.2rem;
+}
+
+.logo p span {
+  color: #009900;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+/******************** INTRO ********************/
+
+.intro {
+  height: 100vh;
+  background: url(../images/intro-bg.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/******************** INTRO-CAROUSEL ********************/
+
+.carousel {
+  text-align: center;
+  margin: 100px auto 0 auto;
+  width: 60%;
+  padding-bottom: 50px;
+}
+
+/******************** INTRO-QUOTE ********************/
+
+.quote-externo p {
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+}
+
+.quote-externo cite {
+  color: #000;
+  font-size: 1.3rem;
+  font-family: 'Voltaire', sans-serif;
+}

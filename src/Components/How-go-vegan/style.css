@@ -1,0 +1,54 @@
+/******************** HOW TO GO ********************/
+
+.button {
+  border: none;
+  width: 75%;
+  border-radius: 10px;
+  padding: 5px 0;
+}
+
+.how-go-vegan {
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  background-color: #009900;
+}
+
+.how-go-vegan .subtitle {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 2.4rem;
+  color: #000;
+}
+
+.accordion {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.accordion .card {
+  border: none;
+  background: #009900;
+}
+
+.accordion .card .card-header {
+  background: none;
+  border: none;
+}
+
+.how-go-vegan .btn-primary {
+  border: 2px solid #009900;
+  background-color: #009900;
+  color: #000;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+}
+
+.how-go-vegan .btn-primary:hover {
+  background: none;
+  color: #009900;
+}

@@ -1,0 +1,31 @@
+/******************** RECIPES ********************/
+
+.recipes {
+  background-color: #009900;
+}
+
+.all-recipes {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+
+.check h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 2.4rem;
+  color: #000;
+}
+
+.recipe-img {
+  text-align: center;
+}
+
+.breakfast img,
+.lunch img,
+.dinner img,
+.dessert img {
+  height: 250px;
+  border-radius: 20px;
+}
