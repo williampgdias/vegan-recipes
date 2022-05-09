@@ -1,43 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Voltaire&display=swap');
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 5px;
-  font-family: 'Voltaire', sans-serif;
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  z-index: 99;
-}
-
 /******************** HEADER-LOGO  ********************/
 
-.logo img {
-  width: 90px;
-  border-radius: 50%;
-}
-
 .logo {
-  margin-left: 100px;
-  margin-top: 10px;
   text-align: center;
   padding: 0 15px;
 }
 
+.logo img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
 .logo p {
   color: #000;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
   margin: 0;
-  line-height: 1.5rem;
+  line-height: 2.2rem;
 }
 
 .logo p span {
@@ -51,44 +38,22 @@ header {
   text-decoration: none;
 }
 
-/******************** HEADER-MENU ********************/
-
-.menu ul {
-  display: flex;
-  list-style: none;
-  font-size: 1.5rem;
-  margin-right: 100px;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  padding: 20px;
-  margin: 10px;
-  color: #000;
-}
-
-.menu ul li a:hover {
-  color: #009900;
-}
-
 /******************** INTRO ********************/
 
 .introducao {
-  width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background: url(../images/intro-bg.png) no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /******************** INTRO-CAROUSEL ********************/
 
 .carousel {
-  margin-right: 10px;
-  margin-top: 30px;
+  text-align: center;
+  margin-top: 100px;
   width: 54%;
 }
 
@@ -148,6 +113,8 @@ header {
 .how-go-vegan {
   text-align: center;
   padding-bottom: 30px;
+  width: 50%;
+  margin: 0 auto;
 }
 .how-go-vegan .subtitle {
   text-align: center;
@@ -162,6 +129,7 @@ header {
   background-color: #009900;
   color: #000;
   width: 200px;
+  height: 150px;
   margin: 10px;
   border-radius: 50px;
   font-size: 1.2rem;
@@ -172,16 +140,51 @@ header {
   color: #009900;
 }
 
+/******************** RECIPES ********************/
 
+.recipes {
+  background-color: #009900;
+}
 
+.all-recipes {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
 
+.check h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 2.4rem;
+  color: #000;
+}
 
+.recipe-img {
+  text-align: center;
+}
+
+.breakfast img,
+.lunch img,
+.dinner img,
+.dessert img {
+  height: 250px;
+  border-radius: 20px;
+}
+
+/* .breakfast img,
+.lunch img,
+.dinner img,
+.dessert img {
+  width: 100%;
+  border-radius: 10px;
+} */
 
 /******************** FOOTER ********************/
 
 footer .copy {
   padding: 10px;
   text-align: center;
-  background-color: #009900;
+  color: #000;
   font-family: 'Josefin Sans', sans-serif;
 }
