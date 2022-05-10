@@ -2,7 +2,7 @@ import './style.css';
 
 import Carousel from 'react-bootstrap/Carousel';
 
-import Logo from '../images/logo.png';
+import Logo from './logo.png';
 
 const Intro = () => {
   return (

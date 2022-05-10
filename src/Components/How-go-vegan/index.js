@@ -12,14 +12,14 @@ function CustomToggle({ children, eventKey }) {
   );
 }
 
-function HowGoVegan() {
+function HowGoVegan({ children }) {
 
   return (
 
     <section className="how-go-vegan">
-      <h2 className="subtitle">How to go Vegan?</h2>
-      
-      
+      <div>
+        { children }
+      </div>
       <Accordion defaultActiveKey='0' className='accordion'>
         {/* CARD 1 */}
         <Card className='card'>
