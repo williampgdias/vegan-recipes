@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Intro />
-      <Title title='Why Go Vegan?' />
+      <Title title='Why go Vegan?' />
       <Cards>
         <Reason
           image={ animalsImg }
@@ -33,8 +33,36 @@ function App() {
         />
       </Cards>
       
-      <HowGoVegan>
-        <Title title='Why Go Vegan?' />
+      <HowGoVegan
+        eventKey="0"
+        btnTitle="Take it slow"
+        cardBody="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      >
+        <Title title='How to go Vegan' />
+      </HowGoVegan>
+      <HowGoVegan
+        eventKey="1"
+        btnTitle="Try new things"
+        cardBody="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      >
+      </HowGoVegan>
+      <HowGoVegan
+        eventKey="2"
+        btnTitle="Do it right"
+        cardBody="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      >
+      </HowGoVegan>
+      <HowGoVegan
+        eventKey="3"
+        btnTitle="Do not give up"
+        cardBody="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      >
+      </HowGoVegan>
+      <HowGoVegan
+        eventKey="4"
+        btnTitle="Keep it learning"
+        cardBody="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      >
       </HowGoVegan>
     </>
   );

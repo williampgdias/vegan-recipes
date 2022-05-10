@@ -1,34 +1,27 @@
-/******************** HOW TO GO ********************/
+
+
+/******************** BUTTON ********************/
 
 .button {
   border: none;
-  width: 75%;
+  width: 100%;
   border-radius: 10px;
   padding: 5px 0;
 }
 
+/******************** BACKGROUND ********************/
+
 .how-go-vegan {
-  text-align: center;
   padding-bottom: 30px;
-  margin: 0 auto;
   background-color: #009900;
 }
 
-.how-go-vegan .subtitle {
-  text-align: center;
-  padding-top: 20px;
-  font-family: 'Voltaire', sans-serif;
-  font-size: 2.4rem;
-  color: #000;
-}
-
-.accordion {
-  width: 40%;
-  margin: 0 auto;
-}
+/******************** ACCORDION ********************/
 
 .accordion .card {
   border: none;
+  border: 1px solid red;
+  margin: 0 auto;
   background: #009900;
 }
 
@@ -37,18 +30,7 @@
   border: none;
 }
 
-.how-go-vegan .btn-primary {
-  border: 2px solid #009900;
-  background-color: #009900;
-  color: #000;
-  width: 200px;
-  height: 150px;
-  margin: 10px;
-  border-radius: 50px;
-  font-size: 1.2rem;
-}
-
-.how-go-vegan .btn-primary:hover {
-  background: none;
-  color: #009900;
+.accordion .card .accordion-collapse {
+  margin: 0 -70px;
+  width: 30rem;
 }
