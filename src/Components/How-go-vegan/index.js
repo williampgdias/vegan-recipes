@@ -20,7 +20,7 @@ function HowGoVegan({ children, eventKey, btnTitle, cardBody }) {
       <div>
         { children }
       </div>
-      <Accordion defaultActiveKey='0' className='accordion'>
+      <Accordion className='accordion'>
         <Card className='card'>
           <Card.Header className='card-header'>
             <CustomToggle eventKey={ eventKey }>{ btnTitle }</CustomToggle>
