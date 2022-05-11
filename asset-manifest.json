@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/vegan-recipes/static/css/main.c68eafa8.css",
-    "main.js": "/vegan-recipes/static/js/main.7705f45e.js",
+    "main.css": "/vegan-recipes/static/css/main.510ecfb2.css",
+    "main.js": "/vegan-recipes/static/js/main.ca372d7c.js",
     "static/media/intro-bg.png": "/vegan-recipes/static/media/intro-bg.27e63d095c2b9f32f4db.png",
     "static/media/environment.png": "/vegan-recipes/static/media/environment.a7670fdc2d7b1ed52111.png",
     "static/media/animals.png": "/vegan-recipes/static/media/animals.47eb8ba54fdd86188d5d.png",
     "static/media/health.png": "/vegan-recipes/static/media/health.47b73f1b99b69d956baa.png",
+    "static/media/breakfast.png": "/vegan-recipes/static/media/breakfast.120a187714b80bf9729f.png",
+    "static/media/lunch.png": "/vegan-recipes/static/media/lunch.8ab10c730d1ad36125da.png",
+    "static/media/dinner.png": "/vegan-recipes/static/media/dinner.3ab3932d7d4cdb324bd1.png",
+    "static/media/dessert.png": "/vegan-recipes/static/media/dessert.284a251ef5953454ad80.png",
     "static/media/logo.png": "/vegan-recipes/static/media/logo.86d2963156dc7187f622.png",
     "index.html": "/vegan-recipes/index.html",
-    "main.c68eafa8.css.map": "/vegan-recipes/static/css/main.c68eafa8.css.map",
-    "main.7705f45e.js.map": "/vegan-recipes/static/js/main.7705f45e.js.map"
+    "main.510ecfb2.css.map": "/vegan-recipes/static/css/main.510ecfb2.css.map",
+    "main.ca372d7c.js.map": "/vegan-recipes/static/js/main.ca372d7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c68eafa8.css",
-    "static/js/main.7705f45e.js"
+    "static/css/main.510ecfb2.css",
+    "static/js/main.ca372d7c.js"
   ]
 }
