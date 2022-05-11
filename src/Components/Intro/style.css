@@ -17,11 +17,12 @@
   font-size: 1.9rem;
   margin: 0;
   line-height: 2.2rem;
+  font-family: 'Voltaire', sans-serif;
 }
 
 .logo p span {
   color: #009900;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -55,7 +56,7 @@
 .quote-externo p {
   color: #000;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   margin-bottom: 5px;
 }
 

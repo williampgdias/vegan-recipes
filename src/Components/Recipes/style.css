@@ -1,31 +1,48 @@
 /******************** RECIPES ********************/
 
 .recipes {
-  background-color: #009900;
+  position: relative;
+  margin: 10px;
 }
 
-.all-recipes {
-  width: 50%;
-  margin: 0 auto;
-  padding-bottom: 150px;
+.recipes img {
+  border-radius: 10px;
 }
 
-.check h2 {
-  text-align: center;
-  padding-top: 20px;
-  font-family: 'Voltaire', sans-serif;
-  font-size: 2.4rem;
+.recipes img:hover {
+  opacity: 0.6;
+}
+
+.recipes h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 4.5rem;
+  font-weight: bold;
   color: #000;
+  border-radius: 15px;
+  font-family: 'Voltaire', sans-serif;
 }
 
-.recipe-img {
-  text-align: center;
+.hidden {
+  display: none;
 }
 
-.breakfast img,
-.lunch img,
-.dinner img,
-.dessert img {
-  height: 250px;
-  border-radius: 20px;
+/* .recipes h3::before {
+  content: '';
+  width: 150px;
+  height: 4px;
+  background: #000;
+  display: block;
+  margin: 0 auto;
 }
+
+.recipes h3::after {
+  content: '';
+  width: 150px;
+  height: 4px;
+  background: #000;
+  display: block;
+  margin: 0 auto;
+} */
